@@ -1,0 +1,1089 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+* {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Segment creation and dynamics */
+header {
+    min-width: 1024px;
+    background-color: #50AD9B;
+    height: 76px;
+    border: 0 0 6px 0;
+    border-bottom-style: solid;
+    border-bottom-color: #F9B233;
+}
+
+section {
+    min-width: 1024px;
+    clear: both;
+}
+
+.folie {
+    width: 1024px;
+    margin: 0 auto; 
+}
+
+footer {
+    height: 400px;
+    background: green;
+    clear: both;
+}
+
+.footer-wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.illustration {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+.illustration-small {
+    display: inline-block;
+    width: 300px;
+    height: 93px;
+    background-size: 100%;
+}
+
+.feature-text {
+    width: 594px;
+}
+
+.left {
+    float: left;
+    margin: 0 0 0 40px;
+}
+
+.right {
+    float: right;
+    margin: 0 40px 0 0;
+}
+
+.button {
+    margin-top: 145px;
+    width: 1024px;
+    color: #fff;
+    font-size: 45px;
+    font-style: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+main {
+    margin: 0 auto;
+}
+
+/* Folie backgrounds */
+
+#wrapper-01 {
+    background-image: url('../img/room.jpg');
+    height: 600px;
+    background-size: cover;
+}
+
+#wrapper-09 {
+    background-color: #50AD9B;
+}
+
+#wrapper-10 {
+    padding: 20px;
+}
+
+#wrapper-11 {
+    padding: 20px;
+}
+
+#wrapper-12 {
+    background-color: #50AD9B;
+}
+
+/* Illustrations */
+
+#folie-01-illustration {
+    background-image: url('../img/area-found.png'); 
+    float: left;
+}
+
+#folie-02-illustration {
+    background-image: url('../img/books-and-data.png'); 
+    float: right;
+}
+
+#folie-03-illustration {
+    background-image: url('../img/scammer.png'); 
+    float: left;
+}
+
+#folie-04-illustration {
+    background-image: url('../img/house-search.png');
+    float: right; 
+}
+
+#folie-05-illustration {
+    background-image: url('../img/viewings-from-home.png'); 
+    float: left;
+}
+
+#folie-06-illustration {
+    background-image: url('../img/viewing-modes.png'); 
+    float: left;
+    margin-top: 20px;
+}
+
+#folie-07-illustration {
+    background-image: url('../img/contract.png');
+    float: right;
+    margin-bottom: 20px;
+}
+
+/* Team secion */
+
+.team-image {
+    float: left;
+    margin-left: 250px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.team-text {
+    margin-left: 40px;
+    float: left;
+}
+
+#team-image-01 {
+    background-image: url('../img/team/philipp.jpg');
+    background-position: 10px -30px;
+}
+
+#team-image-02 {
+    background-image: url('../img/team/bjoern.jpg');
+}
+
+.placeholder {
+    background: blue;
+}
+
+.logo {
+    width:194px;
+    height:70px;
+    background-image: url('../img/logo3.png');
+    background-height: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+main {
+    background: #fff;
+}
+
+.footer-contact-box {
+    float:left;
+    width: 256px;
+}
+
+.footer-map {
+    float:left;
+    width: 256px;
+    height: 350px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 200;
+    line-height: 130%;
+}
+
+h1 {
+    color: #1d6359;
+    margin-left: 40px;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #6f6f6f;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+
+/* Main Nav */
+
+#page-header nav ul {
+    float: right;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+}
+#page-header nav ul li {
+    float: left;
+}
+#page-header nav ul li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-right: -1px;
+}
+#page-header nav ul li a span {
+    border-right: 1px solid #ddd;
+    padding: 0 24px 0 25px;
+}
+#page-header nav ul li:last-child a span {
+    border: none;
+    padding-right: 25px;
+}
+#page-header nav ul li a:hover {
+    background: #F9B233;
+}
+#page-header nav ul li a:hover span {
+    border: none;
+    padding-right: 25px;
+}
+#page-header nav ul li.active a {
+    z-index: 2;
+    background: #666;
+    color: #fff;
+    padding-bottom: 12px;
+    margin-bottom: -2px;
+}
+#page-header nav ul li.active a span {
+    border: none;
+    padding-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* Testimonial styling*/
+
+.item {
+    padding: 30px 195px;
+}
+
+.testimonial-image {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    background-size: 100%;
+    border-radius: 50%;
+    float: left;
+}
+
+#testimonial-image-01 {
+    background-image: url('../img/testimonials/sammy.jpg');
+}
+
+#testimonial-image-02 {
+    background-image: url('../img/testimonials/nils.jpg');
+}
+
+#testimonial-image-03 {
+    background-image: url('../img/testimonials/andrea.jpg');
+}
+
+#testimonial-image-04 {
+    background-image: url('../img/testimonials/jenny.jpg');
+}
+
+.testimonial-text {
+    width: 500px;
+    float: right;
+}
+
+.testimonial-text p {
+    margin: none;
+}
+
+blockquote {
+    border: none;
+    position: relative;
+}
+
+blockquote:before {
+    position: absolute;
+    content: '\201C';
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.5em;
+    left: -20px
+}
+
+blockquote a {
+    float: right;
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+}
+
+span {
+    float: right;
+}
+
+.carousel-control {
+    box-sizing: content-box;
+}
+
+/* Pricing table */
+
+pricing-wrapper {
+    margin-left: 20%;
+    margin-top:150px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    height:100%;
+    background-color:#d9dbda;
+    }
+
+/* === Font Face  === */
+@font-face 
+    {
+    font-family: 'Novecentowide-Normal';
+    src: url('webfonts/263DA1_4_0.eot');
+    src: url('webfonts/263DA1_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/263DA1_4_0.woff') format('woff'),url('webfonts/263DA1_4_0.ttf') format('truetype');
+    }
+    
+    @font-face 
+    {
+    font-family: 'Novecentowide-Bold';
+    src: url('webfonts/263DA1_0_0.eot');
+    src: url('webfonts/263DA1_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/263DA1_0_0.woff') format('woff'),url('webfonts/263DA1_0_0.ttf') format('truetype');
+    }
+    
+    @font-face 
+    {
+    font-family: 'Novecentowide-DemiBold';
+    src: url('webfonts/263DA1_2_0.eot');
+    src: url('webfonts/263DA1_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/263DA1_2_0.woff') format('woff'),url('webfonts/263DA1_2_0.ttf') format('truetype');
+    }
+    
+
+/* === Table Caption  === */
+div.pricing_table .table_caption p
+    {
+    font-family: 'Novecentowide-DemiBold';
+    font-size: 32px;
+    font-weight:900;
+    text-align: left;
+    color:#ffffff;
+    margin-bottom:25px;
+    }
+
+div.pricing_table .table_caption span
+    {
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size: 13px;
+    margin-left:15px;
+    vertical-align: middle;
+    color:#797a79;
+    }
+
+/* === Pricing Table  === */
+/* --- Base --- */
+div.pricing_table
+    {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    color: #979997;
+    line-height: normal !important;
+    margin: 0px auto;
+    display:inline;
+    }
+
+/* --- hyperlinks --- */
+div.pricing_table a
+    {
+    text-decoration: none;
+    }
+    
+/* --- Lists --- */
+div.pricing_table ul
+    {
+    margin: 0px;
+    padding: 0px !important;
+    list-style-type: none !important;
+    }
+
+div.pricing_table li
+    {
+    margin: 0px;
+    padding: 0px !important;
+    list-style-type: none !important;
+    background-color:#ffffff;
+    }
+
+/* === Columns  === */
+/* --- Header row 1 ---  */
+div.pricing_table div.column_1 li.header_row ,
+div.pricing_table div.column_2 li.header_row,
+div.pricing_table div.column_3 li.header_row,
+div.pricing_table div.column_4 li.header_row 
+    {
+    height: 75px;
+    width: 100%;
+    padding: 5px 0px 0px 0px !important;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Novecentowide-Normal';
+    background-color:#f5f7f6;
+    }
+
+div.pricing_table h2.caption 
+    {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5px;
+    color:#727373;
+    } 
+    
+div.pricing_table h2.caption span
+    {
+    font-size: 30px;
+    }
+    
+/* === Column 1  === */
+div.pricing_table div.column_1
+    {
+    width: 220px;
+    height: 100%;
+    float: left;
+    padding-bottom: 20px;
+    margin-right:20px;
+    }
+    
+/* === Column 2 === */
+/* === Column 3  === */
+/* === Column 4  === */
+div.pricing_table div.column_2,
+div.pricing_table div.column_3,
+div.pricing_table div.column_4
+    {
+    width: 220px;
+    height: 100%;
+    float: left;
+    position: relative;
+    padding-bottom: 20px;
+    margin-right:20px;
+    }
+    
+/* === Data Rows  === */
+div.pricing_table li.features_row span,
+div.pricing_table li.features_row_first span,
+div.pricing_table li.features_row_last span
+    {
+    font-size: 14px;
+    color: #727373;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    line-height: 26pt;
+    }
+
+div.pricing_table div.column_1 li.features_row_first,
+div.pricing_table div.column_2 li.features_row_first,
+div.pricing_table div.column_3 li.features_row_first,
+div.pricing_table div.column_4 li.features_row_first
+    {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 10px 0px 0px 0px !important;
+    }
+
+div.pricing_table li.features_row_last
+    {
+    padding: 0px 0px 15px 0px !important;
+    }
+    
+/* === Footer  === */
+div.pricing_table li.description_row 
+    {
+    font-size: 13px;
+    line-height: 16px;
+    width: 100%;
+    height: 39px;
+    float: left;
+    color: #b1b2b1;
+    }
+/* --- button --- */
+
+div.pricing_table li.signup_row
+    {
+    background-color:#ffffff;
+    width: 100%;
+    float: left;
+    padding: 10px 0px 0px 0px !important;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    }
+
+div.pricing_table li.signup_row a.sign_up
+    {
+    display: block;
+    width: 162px;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px 0px 0px !important;
+    margin-bottom:20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color:#d4d6d5;
+    }
+div.footer_caption
+    {
+    font-size: 12px;
+    color: #979997;
+    float: left;
+    width: 100%;
+    margin-top:-5px;
+    }
+    
+/* === Tooltip === */
+div.pricing_table a.tooltip
+    {
+    position: relative;
+    text-decoration: none;
+    color: #979997;
+    font-size: 13px;
+    font-weight: normal;
+    }
+    
+div.pricing_table a.tooltip:hover:after, div.pricing_table a.tooltip:hover:before
+    {
+    display: block;
+    }
+
+/* === Tooltip Box === */
+div.pricing_table a.tooltip:before
+    {
+    content: attr(data-tooltip);
+    display: block;
+    width: 160px;
+    position: absolute;
+    z-index: 3;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -90px;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height:12px;
+    display: none;
+    background-color:#727373;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    }
+    
+/* === Tooltip Arrow === */
+div.pricing_table a.tooltip:after
+    {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 3;
+    bottom: 20px;
+    left: 50%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #727373;
+    display: none;
+    background: transparent;    
+    }
+    
+    
+/* === From this code on, concerns responsive. I only overrided the necessary styles to make it responsive ===*/
+/* Large desktop */
+@media (min-width: 1200px) {  }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+  body 
+  {
+    font-size:12px;
+    padding-top: 0px;
+  }
+}
+  
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  body {
+    padding-top: 0;
+    font-size:12px;
+  }
+  
+ 
+/* === Table Caption  === */
+.table_caption
+    {
+    width:90%; 
+    font-size: 30px;
+    line-height:110%;
+    }
+    
+ .table_caption span
+    {
+    font-size: 12px;
+    margin-left:0px;
+    }
+
+    
+/* === Pricing Table  === */
+/* === Base === */
+div.pricing_table
+    {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    padding: 5% 5%; 
+    display:inline-block;
+    }
+
+}
+
+ /* Landscape phones and down */
+@media (max-width : 480px)
+{
+body
+    {
+    margin-left: 10%;
+}
+
+/* === Columns === */
+div.pricing_table
+    {
+    width: 100%;
+    height: 100%;
+}
+
+div.column
+    {
+    width: 80%;
+    }
+    
+div.pricing_table div.column_1, 
+div.pricing_table div.column_2, 
+div.pricing_table div.column_3, 
+div.pricing_table div.column_4
+    {
+    width: 90%;
+    }
+    
+div.pricing_table li.signup_row a.sign_up
+    {
+    width: 80%;
+    }
+    
+div.pricing_table a.tooltip:before
+    {
+    width: 140px;
+    margin-left: -80px;
+    }
+}
+
+@media (max-width : 250px)
+{
+body
+    {
+    margin-left: 5%;
+    }
+
+div.column
+    {
+    width: 90%;
+    }
+
+
+div.pricing_table div.column li.price
+    {
+    margin-left: 35%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height:50px;
+    }
+    
+div.pricing_table div.column_1, 
+div.pricing_table div.column_2, 
+div.pricing_table div.column_3, 
+div.pricing_table div.column_4
+    {
+    width: 90%;
+    }
+    
+div.pricing_table li.signup_row a.sign_up
+    {
+    width: 90%;
+    }
+    
+    
+div.pricing_table a.tooltip:before
+    {
+    width: 120px;
+    margin-left: -70px;
+    }
+    }
+
+/* === Columns Hover - Header === */
+div.pricing_table div.column_1:hover li.header_row,
+div.pricing_table div.column_2:hover li.header_row, 
+div.pricing_table div.column_3:hover li.header_row,
+div.pricing_table div.column_4:hover li.header_row 
+    {
+    background-color: #f48737;
+    }
+    
+div.pricing_table div.column_1:hover li.header_row h2.caption, 
+div.pricing_table div.column_2:hover li.header_row h2.caption, 
+div.pricing_table div.column_3:hover li.header_row h2.caption,
+div.pricing_table div.column_4:hover li.header_row h2.caption 
+    {
+    color: #8f4f21;
+    }
+    
+div.pricing_table div.column_1:hover li.header_row h2.caption span, 
+div.pricing_table div.column_2:hover li.header_row h2.caption span, 
+div.pricing_table div.column_3:hover li.header_row h2.caption span,
+div.pricing_table div.column_4:hover li.header_row h2.caption span
+    {
+    color: #ffffff;
+    }
+    
+/* === Columns Hover - Footer === */
+div.pricing_table div.column_1:hover li.signup_row a.sign_up,
+div.pricing_table div.column_2:hover li.signup_row a.sign_up, 
+div.pricing_table div.column_3:hover li.signup_row a.sign_up,
+div.pricing_table div.column_4:hover li.signup_row a.sign_up
+    {
+    background-color:#f48737;
+    color: #ffffff;
+    }  
+
+
